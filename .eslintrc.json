@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "airbnb",
+        "plugin:flowtype/recommended"
+    ],
+    "plugins": [
+        "flowtype"
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+        "react/prefer-stateless-function": "off",
+        "import/prefer-default-export": "off",
+        "max-len": ["error", { "code": 160 }],
+        "react/destructuring-assignment": "off"
+    }
+}
