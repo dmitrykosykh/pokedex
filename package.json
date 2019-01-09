@@ -5,8 +5,9 @@
   "private": true,
   "scripts": {
     "flow": "flow",
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "build": "webpack --env.production",
+    "start": "webpack-dev-server --open --env.development",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +31,7 @@
     "eslint-plugin-react": "*",
     "file-loader": "*",
     "flow-bin": "*",
+    "gh-pages": "^2.0.1",
     "html-loader": "*",
     "html-webpack-plugin": "*",
     "style-loader": "*",
