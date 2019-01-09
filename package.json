@@ -6,8 +6,7 @@
   "scripts": {
     "flow": "flow",
     "build": "webpack --env.production",
-    "start": "webpack-dev-server --open --env.development",
-    "deploy": "gh-pages -d dist"
+    "start": "webpack-dev-server --open --env.development"
   },
   "keywords": [],
   "author": "",
@@ -31,7 +30,6 @@
     "eslint-plugin-react": "*",
     "file-loader": "*",
     "flow-bin": "*",
-    "gh-pages": "^2.0.1",
     "html-loader": "*",
     "html-webpack-plugin": "*",
     "style-loader": "*",
